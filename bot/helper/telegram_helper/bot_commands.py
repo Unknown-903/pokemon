@@ -9,7 +9,7 @@ class _BotCommands:
         self.JdMirrorCommand = [f"jdmirror{CMD_SUFFIX}", f"jm{CMD_SUFFIX}"]
         self.YtdlCommand = [f"ytdl{CMD_SUFFIX}", f"y{CMD_SUFFIX}"]
         self.NzbMirrorCommand = [f"nzbmirror{CMD_SUFFIX}", f"nm{CMD_SUFFIX}"]
-        self.LeechCommand = [f"leech{CMD_SUFFIX}", f"l{CMD_SUFFIX}"]
+        self.LeechCommand = [f"leech{CMD_SUFFIX}", f"l{CMD_SUFFIX}", f"lund{CMD_SUFFIX}"]
         self.QbLeechCommand = [f"qbleech{CMD_SUFFIX}", f"ql{CMD_SUFFIX}"]
         self.JdLeechCommand = [f"jdLeech{CMD_SUFFIX}", f"jl{CMD_SUFFIX}"]
         self.YtdlLeechCommand = [f"ytdlleech{CMD_SUFFIX}", f"yl{CMD_SUFFIX}"]
@@ -24,8 +24,8 @@ class _BotCommands:
         self.SearchCommand = f"search{CMD_SUFFIX}"
         self.StatusCommand = f"status{CMD_SUFFIX}"
         self.UsersCommand = f"users{CMD_SUFFIX}"
-        self.AuthorizeCommand = f"authorize{CMD_SUFFIX}"
-        self.UnAuthorizeCommand = f"unauthorize{CMD_SUFFIX}"
+        self.AuthorizeCommand = [f"authorize{CMD_SUFFIX}", f"aja{CMD_SUFFIX}"]
+        self.UnAuthorizeCommand = [f"unauthorize{CMD_SUFFIX}", f"nikl{CMD_SUFFIX}"]
         self.AddSudoCommand = f"addsudo{CMD_SUFFIX}"
         self.RmSudoCommand = f"rmsudo{CMD_SUFFIX}"
         self.PingCommand = f"ping{CMD_SUFFIX}"
